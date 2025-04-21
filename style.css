@@ -1,0 +1,60 @@
+body {font-family: Arial, Helvetica, sans-serif;
+background-color: #afafaf;
+color: black;
+display: flex;
+justify-content: center;
+padding: 20px;
+}
+
+.post-card {
+    background: white;
+    width: 400px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+  
+.post-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.post-info span {font-size: 12px;}
+.post-info i {
+    font-size: 26px;
+}
+
+.foto img {
+    width: 100%;
+    display: block;
+}
+
+.post-header .fa-bars {
+    font-size: 20px;
+    align-self: center;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 20px;
+}
+  
+.iconos-izq i {
+    margin-right: 10px;
+}
+  
+.likes {
+    padding: 0 10px 10px;
+    font-size: 13px;
+}
+.descripcion {padding: 0 10px 10px 10px;
+font-size: 14px;}
